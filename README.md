@@ -1,4 +1,5 @@
 > **Updated Feb 2026** - Patched security and updated packages.
+> **CAPTCHA Update** - Changed to manual CAPTCHA solving if needed.
 
 > **Suno v5 Compatible** - Includes critical fixes for Suno v5:
 > - ✅ Auth endpoint migration (`clerk.suno.com` → `auth.suno.com`)
