@@ -1,0 +1,71 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.npm
+/.pnpm-store
+/.pnp
+.pnp.js
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# testing
+/coverage
+playwright-report/
+test-results/
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+/dist
+
+# misc
+.DS_Store
+Thumbs.db
+.cache/
+.turbo/
+tmp/
+temp/
+*.pem
+*.key
+*.p12
+*.pfx
+
+# debug
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# local env files
+.env
+.env.*
+!.env.example
+*.secret
+.npmrc
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+.idea
+.vscode/
+
+# Private documentation
+RESUME_DOCUMENTATION.md
+CHANGES_SUMMARY.md
+
+# CCPM and Claude Code configuration
+ccpm/
+.claude/
+install-ccpm.sh
+CLAUDE.md
